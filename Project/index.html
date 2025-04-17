@@ -4,37 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover our amazing product that will transform your experience">
-    <title>Responsive Landing Page</title>
+    <meta name="description"
+        content="Transform your learning experience with Learnify - The next generation learning platform">
+    <title>Learnify - Transform Your Learning Journey</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="hero">
         <div class="container">
-            <h1>Welcome to Our Learnify</h1>
-            <p>Discover the next generation of innovation that will transform your learning experience</p>
-            <a href="#features" class="cta-button" role="button">Learn More</a>
+            <h1>Transform Your Learning Journey</h1>
+            <p class="hero-subheadline">Unlock your potential with our innovative learning platform that adapts to your
+                needs</p>
+            <button class="cta-button primary-button" onclick="location.href='#features'">Start Learning Now</button>
         </div>
     </header>
 
     <main>
         <section id="features" class="features">
+            <h2 class="section-title">Why Choose Learnify</h2>
             <div class="features-container">
                 <article class="feature-card">
-                    <img src="icon1.png" alt="Easy to use icon" width="64" height="64">
-                    <h2>Easy to Use</h2>
-                    <p>Intuitive interface designed for the best user experience</p>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                            <line x1="9" y1="9" x2="9.01" y2="9" />
+                            <line x1="15" y1="9" x2="15.01" y2="9" />
+                        </svg>
+                    </div>
+                    <h3>Easy to Use</h3>
+                    <p>Intuitive interface designed for seamless learning experience with personalized navigation</p>
                 </article>
                 <article class="feature-card">
-                    <img src="icon2.png" alt="Powerful features icon" width="64" height="64">
-                    <h2>Powerful Features</h2>
-                    <p>Advanced capabilities to meet all your needs</p>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Powerful Features</h3>
+                    <p>Advanced learning tools, progress tracking, and interactive content to maximize your potential
+                    </p>
                 </article>
                 <article class="feature-card">
-                    <img src="icon3.png" alt="Support icon" width="64" height="64">
-                    <h2>24/7 Support</h2>
-                    <p>Round-the-clock assistance whenever you need help</p>
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                        </svg>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated support team available around the clock to assist you on your learning journey</p>
                 </article>
             </div>
         </section>
@@ -42,11 +65,24 @@
 
     <footer class="footer">
         <div class="container">
-            <p>Contact us: <a href="mailto:simplytobs@gmail.com">simplytobs@gmail.com</a></p>
-            <p>&copy; 2025 Learnify</p>
-            <a href="https://www.facebook.com/simplytoby">Facebook</a>
-            <a href="https://x.com/simplytobs">Twitter</a>
-            <a href="https://www.instagram.com/simplytobs/">Instagram</a>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="mailto:simplytobs@gmail.com">simplytobs@gmail.com</a></p>
+                    <p>Phone: 08012345678</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/simplytoby" aria-label="Facebook">Facebook</a>
+                        <a href="https://x.com/simplytobs" aria-label="Twitter">Twitter</a>
+                        <a href="https://www.instagram.com/simplytobs/" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Learnify. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
